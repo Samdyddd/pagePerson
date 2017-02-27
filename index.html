@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="web前端，个人网页简历，web前端开发，网页版简历">
+    <meta name="description" content="幸广辉的web前端工程师简历">
+    <script src="js2/jquery.min.js"></script>
+    <script src="js2/jquery.fullPage.min.js"></script>
+	
+    <link rel="stylesheet" href="css2/jquery.fullPage.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images2/cat.ico">
+    <title>web前端工程师简历</title>
+    <link rel="stylesheet" href="styleIndex.css">
+
+    <script>
+        $(function () {
+            $("#box").fullpage({
+                verticalCentered: true,
+                navigation: true,
+                navigationTooltips: ['首页', '现状', '技能', '经验', '联系我'],
+                anchors:["page1","page2","page3","page4","page5","footer"],
+                slidesNavPosition: "bottom",
+                controlArrows: true,
+                controlArrowColor:''
+            });
+			
+			$(".dengdai").on("click",function(){
+			alert("等待开发！");
+			});
+				
+			
+        });
+    </script>
+	
+</head>
+<body>
+<!--导航条-->
+<div class="nav">
+    <div class="center-warp">
+        <div class="logo">
+        </div>
+        <div class="navList">
+            <a href="#page1">首页</a>
+            <a href="https://samdyddd.github.io/hexopage.github.io/">个人博客</a>
+            <a href="javascript:" class="dengdai">随笔</a>
+            <a href="javascript:" class="dengdai">关于</a>
+        </div>
+    </div>
+</div>
+
+<div id="box">
+
+    <div class="section section1">
+		
+        <div class="logo-pic">
+            <img src="images2/logo-pic.jpg" alt="头像1" class="img11">
+            <img src="images2/logo-pic2.jpg" alt="头像2" class="img12">
+        </div>
+        <div class="content">
+            <p class="p11">幸广辉</p>
+            <p class="p12">人生没有梦想和<img src="images2/fish.ico" class="icon_pic">
+                有什么区别，有追求，乐趣无限</p>
+            <p class="p13">网页前端工程师</p>
+            <p class="p14">a18319331009@163.com</p>
+        </div>
+		<div>
+	<canvas id="myCanvas"></canvas>
+    </div>
+    </div>
+
+
+    <div class="section section2">
+        <div class="bg"><img src="images2/bg.png" alt=""></div>
+        <strong>[ 现状 ]</strong>
+        <div class="center-warp warp2">
+        <div class="bg20 bg21">
+            <img src="images2/education.png" alt="">
+            <p>学历/本科</p>
+        </div>
+        <div class="bg20 bg22">
+            <img src="images2/age.png" alt="">
+            <p>年龄/24</p>
+        </div>
+        <div class="bg20 bg23">
+            <img src="images2/location.png" alt="">
+            <p>坐标/广州</p>
+        </div>
+        <div class="bg20 bg24">
+            <img src="images2/status.png" alt="">
+            <p>状态/应届</p>
+        </div>
+        </div>
+        <p class="pp">2017年6月准备毕业于广东海洋大学，专业是信息管理与信息系统。应届生。</p>
+    </div>
+
+
+    <div class="section section3">
+        <div class="bg"><img src="images2/bg.png" alt=""></div>
+        <strong>[ 专业技能 ]</strong>
+        <p class="pp">只有不断学习才能跟上时代的步伐。知识是想通的，努力总会有收获。</p>
+        <div class="warp3">
+        <div class="bg30 bg31">
+            <img src="images2/vuejs.png" alt="">
+            <ul>
+                <span>●</span><li><span>●</span>熟练运用vuejs处理移动端的模块开发</li>
+                <span>●</span><li>模块组件化</li>
+            </ul>
+        </div>
+        <div class="bg30 bg32">
+            <img src="images2/html.png" alt="">
+            <ul>
+                <li>熟悉掌握Web标准</li>
+                <li>熟练运用html标签</li>
+                <li>熟悉掌握xml及xhtml标记语言</li>
+            </ul>
+        </div>
+        <div class="bg30 bg33">
+            <img src="images2/js.png" alt="">
+            <ul>
+                <li>熟练掌握javascript编写程序</li>
+                <li>熟悉掌握Jquery</li>
+                <li>正在学习ES6</li>
+            </ul>
+        </div>
+        <div class=" bg30 bg34">
+            <img src="images2/css.png" alt="">
+            <ul>
+                <li>熟练使用css和css3新属性</li>
+                <li>熟悉css3动画实现</li>
+                <li>掌握bootstrap框架及源码的实现</li>
+            </ul>
+        </div>
+        <div class=" bg30 bg35">
+            <img src="images2/webpackgrunt.png" alt="">
+            <ul>
+                <li>熟悉掌握webpack工具</li>
+                <li>熟悉grunt打包工具</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="section section4">
+        <div class="bg"><img src="images2/bg.png" alt=""></div>
+        <strong> [ 作品展示 ]</strong>
+        <div class="warp4">
+        <div class="slide ">
+            <img src="images2/1.jpg" alt="vue">
+        </div>
+        <div class="slide ">
+            <img src="images2/2.png" alt="微型博客">
+        </div>
+        <div class="slide ">
+            <img src="images2/3.png" alt="电影">
+
+        </div>
+        </div>
+        <a href="https://github.com/Samdyddd" style="z-index:10;">更多DEMO</a>
+    </div>
+
+
+    <div class="section section5">
+        <div class="bg"><img src="images2/bg.png" alt=""></div>
+        <strong>[ 联系我 ]</strong>
+        <p class="p51"><span>勤奋 ● </span><span>好学 ● </span><span>代码 ● </span><span>梦想</span></p>
+        <div class="p52">
+            <p>学习是一个有汗水亦有快乐的过程。尤其是出现成果充满了成就感。</p>
+            <p> 前端是最贴近用户的一个方面，用户如果体验非常好，感受美妙。</p>
+            <p> 学习是相同的，交流更让人进步。</p>
+            <p>  带上我，看到更大的世界。</p>
+        </div>
+
+        <div class="arrow">
+            <a href="#footer">
+                <span></span>
+                <span></span>
+            </a>
+            <p class="p53"><a href="#footer">了解更多</a></p>
+        </div>
+    </div>
+
+
+    <div class="section section6 fp-auto-height">
+        <div class="copyright">
+			<div class="foot-top">
+				<span>更多地了解我 ></span>
+				<a href="http://blog.csdn.net/xingguanghui_1134"><img src="images2/csdn.png" alt="">CSDN</a><span>|</span><a href="https://github.com/Samdyddd"><img src="images2/github.png" alt="">github</a><span>|</span><a href="https://git.oschina.net/3.1415926"><img
+					src="images2/mayun.png" alt="">码云</a>
+			</div>
+            <p>©2016-10-6</p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js2/myjs.js"></script>
+<!--<script src="js2/particles.js"></script>
+<script src="js2/app.js"></script>-->
+
+<!--<script src="snow/线条.js"></script>-->
+</html>
