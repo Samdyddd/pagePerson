@@ -55,6 +55,10 @@ body{
     width: 100%;
     height: 100%;
 }
+.section2,.section3,.section4,.section5{
+	
+	background-image:url("images2/bg.png");
+}
 
 /*顶部导航栏*/
 .nav {
@@ -481,7 +485,7 @@ body{
 
 .section5 .p53 {
     position: relative;
-    padding-top: 40px;
+    padding-top: 30px;
     left: -15px
 }
 
