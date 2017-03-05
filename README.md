@@ -1,3 +1,15 @@
 # pagePerson
 个人主页，这个是用fullpage.js简单做的一个关于个人一些经历的主页。<br>
-    查看效果网址：https://samdyddd.github.io/pagePerson/
+查看效果网址：
+	https://samdyddd.github.io/pagePerson/<br>
+## 说明
+在不断的测试中，会发现这个主页的许多问题：<br>
+* 加载慢，文件比较大。
+* 移动端和PC端的混乱，pc端不同浏览器之间布局出问题。不是响应式设计。
+* 功能较小。
+## 升级
+* 通过自动化工具grunt、webpack等压缩代码，优化结构。
+* 解决浏览器之间兼容问题。
+* 解决pc端和移动端显示问题。
+* 添加一个游戏功能。
+
